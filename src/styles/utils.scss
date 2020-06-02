@@ -1,23 +1,31 @@
-.content-box {
-    box-sizing: border-box;
-}
+.content-box { box-sizing: border-box; }
 
 // 盒子
-.flex { display: flex; }
-.flex1 { flex: 1; }
-.flex--wrap { display: flex; flex-wrap: wrap; }
-.flex-xl { display: flex; justify-content: flex-start; }
-.flex-xc { display: flex; justify-content: center; }
-.flex-yc { display: flex; align-items: center; }
-.flex-y-end { align-items: flex-end; }
-.flex-xr { display: flex; justify-content: flex-end; }
-.flex-xyc { display: flex; justify-content: center; align-items: center; }
-.flex-x-between { display: flex; justify-content: space-between; }
-.flexc { display: flex; flex-direction: column; }
-.flexc-xl { display: flex; flex-direction: column; justify-content: flex-start; }
-.flexc-xr { display: flex; flex-direction: column; justify-content: flex-end; }
-.flexc-xc { display: flex; flex-direction: column; justify-content: center; }
-.flexc-xyc { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.flex {
+    display: flex;
+
+    &--column {
+        flex-direction: column;
+    }
+
+    &--wrap {
+        flex-wrap: wrap;
+    }
+
+    &-xl { justify-content: flex-start; }
+    &-xc { justify-content: center; }
+    &-xr { justify-content: flex-end; }
+    &-around { justify-content: space-around; }
+    &-between { justify-content: space-between; }
+
+    &-yt { align-items: flex-start; }
+    &-yc { align-items: center; }
+    &-yb { align-items: flex-end; }
+
+    .flex-children {
+        flex: 1;
+    }
+}
 
 // 文本溢出省略号
 .ellipsis {
