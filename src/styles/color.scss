@@ -1,0 +1,31 @@
+
+.theme-color { background-color: $theme-color; }
+
+.bg-theme-color { background-color: $theme-color;}
+.bg-red { background-color: $red; }
+.bg-blue { background-color: $blue; }
+
+.text-theme-color { color: $theme-color; }
+.text-red { color: $red; }
+.text-blue { color: $blue }
+
+.text-white { color: $white; }
+.text-black { color: $black; }
+.text-link { color: $text-link-color; }
+.text-active { color: $active-color; }
+.text-primary { color: $text-primary-color; }
+.text-base { color: $text-color; }
+.text-info { color: $text-secondary-color; }
+.text-placeholder { color: $text-placeholder-color; }
+
+.bg-grey { background-color: $background-color;}
+.bg-grey1 { background-color: #eee; }
+.bg-white { background-color: $white;}
+.bg-black { background-color: $black; }
+.bg-transparent { background-color: transparent;}
+
+.border-base-color { border-color: $border-color };
+
+// 阴影
+.base-shadow { box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04); }
+.tint-shadow { box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1); }

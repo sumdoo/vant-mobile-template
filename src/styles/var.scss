@@ -1,0 +1,78 @@
+
+// 主题
+$theme-color: #2AC79F;
+// $theme-color: #CCCCFF;
+// $theme-color: #99CCFF;
+// $theme-color: #FFCC99;
+$red:  #FF6565;
+$blue: #99CCFF;
+
+// Color Palette
+$black: #000;
+$white: #fff;
+
+$gray-1: #f7f8fa;
+$gray-2: #f2f3f5;
+$gray-3: #ebedf0;
+$gray-4: #dcdee0;
+$gray-5: #c8c9cc;
+$gray-6: #969799;
+$gray-7: #646566;
+
+// Gradient Colors
+$gradient-red: linear-gradient(to right, #ff6034, #ee0a24);
+$gradient-orange: linear-gradient(to right, #ffd01e, #ff8917);
+
+// Component Colors
+$text-link-color: #576b95;
+$text-primary-color: #303133;
+$text-color: #606266;
+$text-secondary-color: #909399;
+$text-placeholder-color: #c0c4cc;
+$active-color: $gray-2;
+$background-color: $gray-1;
+
+.text-primary { color: #303133; }
+.text-base { color: #606266; }
+.text-info { color: #909399; }
+.text-placeholder { color: #C0C4CC; }
+
+
+// Padding
+$padding-base: 4px;
+$padding-xs: $padding-base * 2;
+$padding-sm: $padding-base * 3;
+$padding-md: $padding-base * 4;
+$padding-lg: $padding-base * 6;
+$padding-xl: $padding-base * 8;
+
+// Font
+$font-size-xs: 10px;
+$font-size-sm: 12px;
+$font-size-md: 14px;
+$font-size-lg: 16px;
+$font-weight-bold: 500;
+$base-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+  Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC', 'Hiragino Sans GB',
+  'Microsoft Yahei', sans-serif;
+$price-integer-font-family: Avenir-Heavy, PingFang SC, Helvetica Neue, Arial,
+  sans-serif;
+
+// Animation
+$animation-duration-base: 0.3s;
+$animation-duration-fast: 0.2s;
+$animation-timing-function-enter: ease-out;
+$animation-timing-function-leave: ease-in;
+
+// Border
+$border-color: $gray-3;
+$border-width-base: 1px;
+$border-radius-sm: 2px;
+$border-radius-md: 4px;
+$border-radius-lg: 8px;
+$border-radius-max: 999px;
+
+
+:export {
+    themeColor: $theme-color;
+}

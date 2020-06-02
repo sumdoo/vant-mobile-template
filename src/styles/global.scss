@@ -1,0 +1,33 @@
+
+html, body, #app {  height: 100%; }
+
+.fixed-wrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.position-t50 { top: 50px; }
+.position-l10 { left: 10px; }
+.position-r10 { right: 10px; }
+
+.w100 { width: 100%;  }
+.h100 { height: 100%; }
+.w60 { width: 60px; }
+.w80 { width: 80px; }
+.w120 { width: 120px; }
+.w130 { width: 130px; }
+.w-200 { width: 200px; }
+.w-220 { width: 220px; }
+
+.h60 { height: 60px; }
+.h80 { height: 80px; }
+.h150 { height: 150px;}
+.h200 { height: 200px; }
+.h300 { height: 300px; }
+.h320 { height: 320px; }
+.hauto { height: auto; }
+
+.pt80 { padding-top: 80px;}
