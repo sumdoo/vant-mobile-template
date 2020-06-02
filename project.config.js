@@ -2,6 +2,10 @@ const BaseUrl = process.env.VUE_APP_BASE_URL || 'http://localhost';
 
 module.exports = {
     /**
+     * <title>内容</title>
+     */
+    title: 'vant-mobile-template',
+    /**
      * 默认语言
      */
     local: 'en',

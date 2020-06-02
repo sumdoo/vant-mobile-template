@@ -63,6 +63,8 @@ module.exports = {
         } else {
             useMockGlobalDataG(config);
         }
+
+        setTitle(config);
     }
 };
 
@@ -112,6 +114,16 @@ function useCDN(config, CDN) {
         args[0].cdn = { css: CDN.css, js: CDN.js };
         return args;
     });
+}
+
+// 设置标题
+function setTitle(config) {
+    if (conf.title) {
+        config.plugin('html').tap((args) => {
+            args[0].title = conf.title;
+            return args;
+        });
+    }
 }
 
 // 设置模板名称
